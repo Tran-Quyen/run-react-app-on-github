@@ -14,3 +14,6 @@ PUBLIC_URL="."
 $ npm run deploy
 
 - Lên github vào github pages lấy link và trải nghiệm :<
+
+* Lưu ý: Khi cập nhật code xong muốn deploy tiếp bản mới thì chạy lại lệnh:
+$ npm run deploy
