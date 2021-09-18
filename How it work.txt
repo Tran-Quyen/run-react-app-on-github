@@ -1,0 +1,11 @@
+﻿- Setup project lên repository như bình thường
+
+- Tải dependency vào project:
+$ npm i gh-pages --save-dev
+
+- Thêm 2 lệnh sau vào script trong package.json
+ "predeploy":"react-scripts build",
+ "deploy":"gh-pages -d build"
+
+- Tạo file .env và thêm vào file như sau:
+PUBLIC_URL="."
