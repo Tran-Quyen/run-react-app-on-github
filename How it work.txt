@@ -9,3 +9,8 @@ $ npm i gh-pages --save-dev
 
 - Tạo file .env và thêm vào file như sau:
 PUBLIC_URL="."
+
+- Chạy lệnh:
+$ npm run deploy
+
+- Lên github vào github pages lấy link và trải nghiệm :<
